@@ -6,3 +6,7 @@
 ## Preview
 ![preview do projeto](Img-preview.jpg)
 
+### Tecnologias usadas
+- HTML
+- CSS
+- JavaScript
