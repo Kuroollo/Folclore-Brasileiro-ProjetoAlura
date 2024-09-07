@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fonte-cordel;
+    src: url(Fonte/Cordel\ Encarnado.otf) format('otf'),
+        url(Fonte/Cordel\ Encarnado.woff) format('woff');
+}
+
+body {
+    height: 100vh;
+    background-color: #D0C07A;
+    color: #000206;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
+    /* background-color: red; */
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: fonte-cordel;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+main .pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .pesquisa input {
+    width: 380px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+main .pesquisa input:focus {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+main .pesquisa button {
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    font-family: fonte-cordel;
+    background-color: #AF6E3D;
+    border: 1px solid #AF6E3D;
+    border-radius: 20px;
+    margin: 15px 0px;
+    transition: .15s ease-in-out;
+}
+
+main .pesquisa button:hover {
+    transform: scale(1.05);
+    background-color: #AF6E3D;
+    border: 1px solid #6b492f;
+}
+
+main .resultado {
+    flex-grow: 1;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    /* background-color: aquamarine; */
+}
+
+main .resultado div {
+    width: 700px;
+    margin: 10px;
+    background-color: white;
+    font-family: cursive;
+    border-radius: 0px;
+    padding: 20px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-style: italic;
+    font-weight: 500;
+    margin: 15px 0px;
+}
