@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: fonte-cordel;
-    src: url(Fonte/Cordel\ Encarnado.otf) format('otf'),
-        url(Fonte/Cordel\ Encarnado.woff) format('woff');
+    src: url(/Fonte/Cordel\ Encarnado.otf) format('otf'),
+        url(/Fonte/Cordel\ Encarnado.woff) format('woff');
 }
 
 body {
